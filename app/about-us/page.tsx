@@ -89,7 +89,7 @@ export default function AboutPage() {
               alt="Team Meeting"
               width={600}
               height={600}
-              className="shadow-2xl absolute inset-0 bg-gradient-to-t from-[#002B5B] to-transparent opacity-30 rounded-lg top-0 left-0 w-full object-fit "
+              className="shadow-2xl absolute inset-0 bg-gradient-to-t from-[#002B5B] to-transparent opacity-30 rounded-lg top-0 left-0 w-full h-full object-cover "
             />{" "}
             <motion.div
               initial={{ opacity: 0, x: 50 }}
