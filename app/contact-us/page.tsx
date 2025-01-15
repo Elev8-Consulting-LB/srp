@@ -207,8 +207,11 @@ export default function ContactPage() {
               In order to prescreen CVs as well as to ensure the suitability of
               the potential candidate matching your requirements, email the job
               description to:{" "}
-              <Link href="mailto:client@srp.com" className="hover:underline">
-                client@srp.com
+              <Link
+                href="mailto:clients@supremerecruitmentpartners.com"
+                className="hover:underline"
+              >
+                clients@supremerecruitmentpartners.com
               </Link>
             </motion.p>
 
