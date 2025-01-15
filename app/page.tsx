@@ -217,9 +217,12 @@ export default function Home() {
                 className="w-24 h-24 mx-auto"
               />
             </div>
-            <Button className="bg-transparent border-2 border-[#002B5B] text-[#002B5B] hover:bg-[#002B5B] hover:text-white rounded-full px-8 py-6 text-lg font-semibold transition-colors duration-300">
+            <Link
+              href="/agreement"
+              className="bg-transparent border-2 border-[#002B5B] text-[#002B5B] hover:bg-[#002B5B] hover:text-white rounded-full px-8 py-6 text-lg font-semibold transition-colors duration-300"
+            >
               Submit Your CV
-            </Button>
+            </Link>
           </motion.div>
         </div>
       </section>
