@@ -84,19 +84,19 @@ export default function AboutPage() {
                 Transforming careers and businesses for over two decades
               </p>
             </motion.div>
+            <Image
+              src="/Element.jpeg"
+              alt="Team Meeting"
+              width={600}
+              height={600}
+              className="shadow-2xl absolute inset-0 bg-gradient-to-t from-[#002B5B] to-transparent opacity-30 rounded-lg top-0 left-0 w-full object-fit "
+            />{" "}
             <motion.div
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
               className="relative"
             >
-              <Image
-                src="/Element.jpeg"
-                alt="Team Meeting"
-                width={600}
-                height={400}
-                className="rounded-lg shadow-2xl"
-              />
               <div className="absolute inset-0 bg-gradient-to-t from-[#002B5B] to-transparent opacity-30 rounded-lg"></div>
             </motion.div>
           </div>
