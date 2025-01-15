@@ -4,6 +4,7 @@ import { useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import gsap from "gsap";
 import Image from "next/image";
+import { Metadata } from "next";
 
 interface TimelineItemProps {
   title: string;
