@@ -40,9 +40,10 @@ export async function sendAgreementEmail(formData: FormData) {
 
   try {
     const mailOptions: nodemailer.SendMailOptions = {
-      from: email,
+      from: `"${firstName} ${lastName}" <${process.env.SMTP_USER}>`,
       to: process.env.RECIPIENT_EMAIL,
       subject: "New Candidate Agreement Submission",
+
       text: `
         Name: ${firstName} ${lastName}
         Email: ${email}

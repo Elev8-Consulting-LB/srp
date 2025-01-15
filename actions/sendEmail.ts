@@ -56,7 +56,7 @@ export async function sendEmail(formData: FormData) {
 
   try {
     const mailOptions: nodemailer.SendMailOptions = {
-      from: email,
+      from: `"${firstName} ${lastName}" <${process.env.SMTP_USER}>`,
       to: process.env.RECIPIENT_EMAIL,
       subject: "New Contact Form Submission",
       text: `
