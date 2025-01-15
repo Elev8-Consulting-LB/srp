@@ -1,6 +1,5 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
 import { about, features, header, specialitize } from "@/data/homePage";
 import Image from "next/image";
 import { motion } from "framer-motion";
