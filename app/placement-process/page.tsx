@@ -218,7 +218,7 @@ const Page = () => {
             <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-12 text-center underline underline-offset-8 decoration-customSecondary">
               Recruitment Procedure
             </h2>
-            <p className="mb-8">
+            <p className="mb-8 text-justify">
               On receiving the manpower requirements from our client, Supreme
               Recruitment Partners - SRP analyzes and initiates the sourcing
               process.
@@ -228,34 +228,34 @@ const Page = () => {
               <li>
                 It is a prerequisite for the client to formally provide the
                 below documents:
-                <ul className="list-disc pl-6">
+                <ul className="list-disc pl-6 text-justify">
                   <li>Demand Letter</li>
                   <li>Power of Attorney</li>
                   <li>Recruitment Agreement – if applicable</li>
                   <li>Expected Joining Dates</li>
                 </ul>
               </li>
-              <li>
+              <li className="text-justify">
                 After receiving the above documents, we will start sourcing,
                 prescreening, and shortlisting the prospects for suitability to
                 the client&apos;s specific requirements.
               </li>
-              <li>
+              <li className="text-justify">
                 Upon receiving the shortlisted candidates approved by our
                 client, we will coordinate a suitable date for the final
                 selection, either the client will send his/their
                 representative(s) to our offices or arrange and conduct an
                 interview via video conference.
               </li>
-              <li>
+              <li className="text-justify">
                 The client will then issue a job offer letter in accordance with
                 the terms and conditions required by the labor laws of their
                 respective country.
               </li>
-              <li>
+              <li className="text-justify">
                 The client will issue, if applicable, the joining flight ticket.
               </li>
-              <li>
+              <li className="text-justify">
                 SRP will complete the selection process and ensure the smooth
                 placement/deployment of the selected candidates.
               </li>

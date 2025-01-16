@@ -22,7 +22,7 @@ export default function Home() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-customPrimary tracking-wide leading-tight mb-6">
               {header.title}
             </h1>
-            <p className="text-lg md:text-xl text-customPrimary tracking-wide mb-8">
+            <p className="text-lg md:text-xl text-customPrimary tracking-wide mb-8 text-justify">
               {header.description}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -71,7 +71,9 @@ export default function Home() {
               <h2 className="text-3xl md:text-4xl font-bold text-customPrimary mb-6">
                 {about.title}
               </h2>
-              <p className="text-lg text-customPrimary">{about.description}</p>
+              <p className="text-lg text-customPrimary text-justify">
+                {about.description}
+              </p>
             </motion.div>
             <motion.div
               className="w-full md:w-1/3"
