@@ -7,13 +7,13 @@ export const header = {
 export const about = {
   title: "Who We Are",
   description:
-    "The conventional concept of determinism does not suppose the existence of such sources.This represents a scandalous weakness in the concept.",
+    "Supreme Recruitment Partners (SRP) is a leading human resources consulting firm with over 40 years of experience in transforming people’s lives.",
 };
 
 export const specialitize = {
   title: "What We Specialize In.",
   description:
-    "We help businesses find the best talent and assist candidates in finding roles to grow their careers. We serve industries like oil & gas, construction, manufacturing, and facility management.",
+    "We help businesses find the best talent and assist candidates in finding roles to grow their careers. We serve in oil & gas, construction, manufacturing, and facility management industries.",
 };
 
 export const ourServices = {

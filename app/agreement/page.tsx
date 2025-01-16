@@ -128,13 +128,13 @@ const TermsAndConditions = () => {
               <motion.div className="space-y-8" variants={containerVariants}>
                 {/* Introduction */}
                 <motion.div className="space-y-4" variants={itemVariants}>
-                  <p className="text-sm leading-relaxed">
+                  <p className="text-sm leading-relaxed text-justify">
                     Supreme Recruitment Partners (Recruiter) is a professional
                     recruitment service contracted by its clients to seek,
                     prescreen, and refer candidates (Candidate) to its clients
                     (Client).
                   </p>
-                  <p className="text-sm leading-relaxed">
+                  <p className="text-sm leading-relaxed text-justify">
                     Candidate has submitted an application or contacted the
                     Recruiter requesting support in job placement as a
                     Candidate.
@@ -143,9 +143,11 @@ const TermsAndConditions = () => {
 
                 {/* Services Provided */}
                 <motion.div className="space-y-4" variants={itemVariants}>
-                  <h2 className="text-xl font-semibold">SERVICES PROVIDED</h2>
+                  <h2 className="text-xl font-semibold text-justify">
+                    SERVICES PROVIDED
+                  </h2>
                   <ol className="list-decimal list-inside space-y-2">
-                    <li className="text-sm leading-relaxed">
+                    <li className="text-sm leading-relaxed text-justify">
                       The Recruiter will review the Candidate&apos;s full and
                       accurate application. If appropriate, the Recruiter will
                       interview the Candidate for prescreening purposes. The
@@ -161,51 +163,51 @@ const TermsAndConditions = () => {
 
                 {/* Candidate Responsibilities */}
                 <motion.div className="space-y-4" variants={itemVariants}>
-                  <h2 className="text-xl font-semibold">
+                  <h2 className="text-xl font-semibold text-justify">
                     CANDIDATE RESPONSIBILITES
                   </h2>
-                  <ol className="list-decimal list-inside space-y-2">
-                    <li className="text-sm leading-relaxed">
-                      Candidate shall provide accurate and necessary information
-                      for Recruiter to conduct prescreening. Candidate
-                      acknowledges that all references submitted may be
-                      contacted by Recruiter or Client. Candidate shall attend
-                      to all confirmed interviews. Candidate consents to the
-                      disclosure of all relevant information by Recruiter to the
-                      Client. Candidate should not engage in any conduct which
-                      is harmful to the interests of the Recruiter. Upon
+                  <ol className="list-decimal list-inside space-y-2 text-justify">
+                    <span className="text-sm leading-relaxed text-justify">
+                      1. Candidate shall provide accurate and necessary
+                      information for Recruiter to conduct prescreening.
+                      Candidate acknowledges that all references submitted may
+                      be contacted by Recruiter or Client. Candidate shall
+                      attend to all confirmed interviews. Candidate consents to
+                      the disclosure of all relevant information by Recruiter to
+                      the Client. Candidate should not engage in any conduct
+                      which is harmful to the interests of the Recruiter. Upon
                       receiving an offer of employment, Candidate shall
                       immediately inform Recruiter. Candidate voluntarily
                       relinquishes their legal ability to pursue litigation
                       against Recruiter.
-                    </li>
+                    </span>
                   </ol>
                 </motion.div>
 
                 {/* No Obligation Policy */}
                 <motion.div className="space-y-4" variants={itemVariants}>
-                  <h2 className="text-xl font-semibold">
+                  <h2 className="text-xl font-semibold text-justify">
                     NO OBLIGATION POLICY
                   </h2>
                   <ol className="list-decimal list-inside space-y-2" start={3}>
-                    <li className="text-sm leading-relaxed">
-                      Candidate acknowledges and agrees that despite
+                    <span className="text-sm leading-relaxed text-justify">
+                      2. Candidate acknowledges and agrees that despite
                       Recruiter&apos;s best efforts to place Candidate with a
                       Client, there is no obligation that employment will be
                       obtained for Candidate. Candidate understands that
                       decisive employment is solely based on the Client&apos;s
                       decision.
-                    </li>
+                    </span>
                   </ol>
                 </motion.div>
 
                 {/* Relationship of Parties */}
                 <motion.div className="space-y-4" variants={itemVariants}>
-                  <h2 className="text-xl font-semibold">
+                  <h2 className="text-xl font-semibold text-justify">
                     Relationship of Parties
                   </h2>
                   <ol className="list-decimal list-inside space-y-2" start={4}>
-                    <li className="text-sm leading-relaxed">
+                    <li className="text-sm leading-relaxed text-justify">
                       Nothing in these Terms and Conditions shall create, or be
                       deemed to create, a partnership between the parties.
                     </li>
@@ -214,7 +216,7 @@ const TermsAndConditions = () => {
 
                 {/* Personal Information Fields */}
                 <motion.div className="space-y-4" variants={itemVariants}>
-                  <h2 className="text-xl font-semibold">
+                  <h2 className="text-xl font-semibold text-justify">
                     Personal Information
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

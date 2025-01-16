@@ -37,6 +37,9 @@ const jobSectors = [
 
 const locations = [
   "Lebanon",
+  "Bahrain",
+  "Egypt",
+  "Iraq",
   "Jordan",
   "Kuwait",
   "Oman",
@@ -199,7 +202,7 @@ export default function ContactPage() {
 
             <motion.p
               variants={itemVariants}
-              className="text-3xl md:text-xl font-semibold text-[#002B5B] mb-8 text-start"
+              className="text-2xl md:text-xl font-semibold text-[#002B5B] mb-8 text-start"
             >
               Employers
               <br />
@@ -209,7 +212,7 @@ export default function ContactPage() {
               description to:{" "}
               <Link
                 href="mailto:clients@supremerecruitmentpartners.com"
-                className="hover:underline"
+                className="hover:underline text-sm md:text-2xl"
               >
                 clients@supremerecruitmentpartners.com
               </Link>
@@ -466,7 +469,7 @@ export default function ContactPage() {
         </div>
       </motion.section>
       <motion.section>
-        <div className="bg-[#002B5B] px-8 py-24 rounded-lg mb-8">
+        <div className="bg-[#002B5B] px-4 md:px-8 py-24 rounded-lg mb-8">
           <motion.h3
             className="text-2xl font-bold text-white mb-4 text-center relative"
             whileHover={{ scale: 1.05 }}
