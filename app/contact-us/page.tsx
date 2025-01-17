@@ -202,7 +202,7 @@ export default function ContactPage() {
 
             <motion.p
               variants={itemVariants}
-              className="text-sm md:text-xl font-semibold text-customTextFont mb-8 text-start"
+              className="text-xl md:text-xl font-semibold text-customTextFont mb-8 text-start"
             >
               Employers
               <br />
@@ -212,7 +212,7 @@ export default function ContactPage() {
               description to:{" "}
               <Link
                 href="mailto:clients@supremerecruitmentpartners.com"
-                className="hover:underline text-sm md:text-2xl"
+                className="hover:underline text-xl md:text-2xl"
               >
                 clients@supremerecruitmentpartners.com
               </Link>

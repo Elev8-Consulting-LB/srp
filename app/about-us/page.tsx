@@ -110,14 +110,16 @@ export default function AboutPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-customTextFont mb-8">
               Who We Are
             </h2>
-            <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-              Supreme Recruitment Partners (SRP) is a leading human resources
-              consulting firm with over 40 years of experience in transforming
-              people’s lives. We specialize in recruiting for various job
-              levels, from unskilled workers to D-Level Executives, ensuring
-              that the right talent meets the right opportunities.
+            <p className="text-xl text-gray-700 mb-8 leading-relaxed text-justify">
+              Leverage SRP’s comprehensive recruiting services to bridge the gap
+              between your business needs and the industry’s top talent. For
+              executive search, SRP offers unparalleled expertise and access to
+              top-tier executives who can move organizations forward. SRP has
+              also a proven track record of providing white- and blue-collar
+              professionals with the right qualifications, skills, and
+              personality to help our clients succeed.
             </p>
-            <p className="text-xl text-gray-700 leading-relaxed">
+            <p className="text-xl text-gray-700 leading-relaxed text-justify">
               Our dynamic presence spans the Arabian Gulf, connecting local and
               multinational companies with exceptional candidates.
             </p>
@@ -132,7 +134,7 @@ export default function AboutPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-customTextFont mb-8 text-center">
               What We Specialize In
             </h2>
-            <p className="text-xl text-gray-700 mb-12 text-center leading-relaxed">
+            <p className="text-xl text-gray-700 mb-12 leading-relaxed text-justify">
               At SRP, we focus on finding the most talented candidates with the
               necessary qualifications and experience to meet our clients’
               unique requirements. From skilled professionals to executive-level
@@ -156,7 +158,7 @@ export default function AboutPage() {
 
               <div className="absolute inset-0 bg-gradient-to-t from-[#002B5B] to-transparent opacity-30"></div>
             </motion.div>
-            <p className="text-xl text-gray-700 mb-12 text-center leading-relaxed mt-10">
+            <p className="text-xl text-gray-700 mb-12 leading-relaxed mt-10 text-justify">
               We support clients across diverse industries, including oil & gas,
               EPC contractors, construction, manufacturing, and facility
               management. By leveraging our expertise, we help businesses
@@ -173,7 +175,7 @@ export default function AboutPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-customTextFont mb-12 text-center">
               What Sets Us Apart
             </h2>
-            <p className="text-xl text-gray-700 mb-12 text-center leading-relaxed my-10">
+            <p className="text-xl text-gray-700 mb-12 leading-relaxed my-10 text-justify">
               We understand the market, industries, and the potential impact of
               the right candidate in the right position. Our Associate
               Consultants, located across the Middle East, Europe, Asia, and
@@ -207,7 +209,7 @@ export default function AboutPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-customTextFont mb-12 text-center">
               Our Global Reach
             </h2>
-            <p className="text-xl text-gray-700 mb-12 text-center leading-relaxed my-10">
+            <p className="text-xl text-gray-700 mb-12 leading-relaxed my-10 text-justify">
               With a presence across the Arabian Gulf, Europe, Asia, and South
               Africa, SRP&apos;s recruitment services are truly global. We have
               successfully partnered with clients and candidates from:

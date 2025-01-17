@@ -139,7 +139,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-3xl md:text-4xl font-bold text-[#002B5B] text-center mb-12"
+            className="text-3xl md:text-4xl font-bold text-customTextFont text-center mb-12"
           >
             What Makes Us Stand Out?
           </motion.h2>
@@ -152,12 +152,12 @@ export default function Home() {
                 transition={{ duration: 0.6, delay: index * 0.2 }}
               >
                 <Card className="p-8 rounded-3xl border-[#FF6B6B] border-2 min-h-52 hover:shadow-lg transition-shadow duration-300 bg-gray-50">
-                  <h3 className="text-xl md:text-2xl font-semibold text-[#002B5B] mb-8">
+                  <h3 className="text-xl md:text-2xl font-semibold text-customTextFont mb-8">
                     {feature.title}
                   </h3>
                   <Link
                     href={feature.link}
-                    className="p-0 text-[#002B5B] w-full flex gap-2 hover:text-[#FF6B6B] transition-colors duration-300 font-medium"
+                    className="p-0 text-customTextFont w-full flex gap-2 hover:text-[#FF6B6B] transition-colors duration-300 font-medium"
                   >
                     Learn more
                     <ArrowRight className="ml-2 h-5 w-5" />
@@ -193,7 +193,7 @@ export default function Home() {
             </div>
             <Link
               href="/contact-us"
-              className="bg-white text-[#002B5B] hover:bg-gray-100 rounded-full px-8 py-6 text-lg font-semibold"
+              className="bg-white text-customTextFont hover:bg-gray-100 rounded-full px-8 py-6 text-lg font-semibold"
             >
               Contact Us
             </Link>
@@ -206,7 +206,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="bg-white p-12 md:p-16 lg:p-24 flex flex-col items-center text-center"
           >
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#002B5B] mb-12">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-customTextFont mb-12">
               Ready to take the next step in your career?
             </h2>
             <div className="mb-12">
@@ -220,7 +220,7 @@ export default function Home() {
             </div>
             <Link
               href="/agreement"
-              className="bg-transparent border-2 border-[#002B5B] text-[#002B5B] hover:bg-[#002B5B] hover:text-white rounded-full px-8 py-6 text-lg font-semibold transition-colors duration-300"
+              className="bg-transparent border-2 border-customTextFont text-customTextFont hover:bg-[#002B5B] hover:text-white rounded-full px-8 py-6 text-lg font-semibold transition-colors duration-300"
             >
               Submit Your CV
             </Link>

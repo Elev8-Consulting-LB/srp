@@ -37,7 +37,7 @@ const page = () => {
 
               <div className="absolute inset-0 bg-gradient-to-t from-customTextFont to-transparent opacity-30"></div>
             </motion.div>
-            <p className="text-lg text-gray-700 mb-12 text-center leading-relaxed mt-10 italic">
+            <p className="text-lg text-gray-700 mb-12 text-center leading-relaxed mt-10">
               {hero.desc}
             </p>
           </motion.div>
@@ -49,11 +49,11 @@ const page = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-customTextFont mb-8">
               {whyChooseSrp.title}
             </h2>
-            <p className="text-xl text-gray-700 mb-8 leading-relaxed">
+            <p className="text-xl text-gray-700 mb-8 leading-relaxed text-justify">
               {whyChooseSrp.desc1}
             </p>
             <div className="h-1 bg-customSecondary my-8"></div>
-            <p className="text-xl text-gray-700 leading-relaxed">
+            <p className="text-xl text-gray-700 leading-relaxed text-justify">
               {whyChooseSrp.desc2}
             </p>
           </motion.div>

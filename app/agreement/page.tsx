@@ -146,8 +146,8 @@ const TermsAndConditions = () => {
                   <h2 className="text-xl font-semibold text-justify">
                     SERVICES PROVIDED
                   </h2>
-                  <ol className="list-decimal list-inside space-y-2" start={1}>
-                    <li className="text-sm leading-relaxed text-justify">
+                  <ol className="list-inside space-y-2">
+                    <li className="text-sm leading-relaxed text-justify ">
                       The Recruiter will review the Candidate&apos;s full and
                       accurate application. If appropriate, the Recruiter will
                       interview the Candidate for prescreening purposes. The
@@ -166,10 +166,7 @@ const TermsAndConditions = () => {
                   <h2 className="text-xl font-semibold text-justify">
                     CANDIDATE RESPONSIBILITES
                   </h2>
-                  <ol
-                    className="list-decimal list-inside space-y-2 text-justify"
-                    start={2}
-                  >
+                  <ol className="list-inside space-y-2 text-justify">
                     <li className="text-sm leading-relaxed text-justify">
                       Candidate shall provide accurate and necessary information
                       for Recruiter to conduct prescreening. Candidate
@@ -192,7 +189,7 @@ const TermsAndConditions = () => {
                   <h2 className="text-xl font-semibold text-justify">
                     NO OBLIGATION POLICY
                   </h2>
-                  <ol className="list-decimal list-inside space-y-2" start={3}>
+                  <ol className="list-inside space-y-2">
                     <li className="text-sm leading-relaxed text-justify">
                       Candidate acknowledges and agrees that despite
                       Recruiter&apos;s best efforts to place Candidate with a
@@ -209,7 +206,7 @@ const TermsAndConditions = () => {
                   <h2 className="text-xl font-semibold text-justify">
                     Relationship of Parties
                   </h2>
-                  <ol className="list-decimal list-inside space-y-2" start={4}>
+                  <ol className="list-inside space-y-2">
                     <li className="text-sm leading-relaxed text-justify">
                       Nothing in these Terms and Conditions shall create, or be
                       deemed to create, a partnership between the parties.
