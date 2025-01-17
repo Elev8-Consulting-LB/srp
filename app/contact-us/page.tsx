@@ -212,7 +212,7 @@ export default function ContactPage() {
               description to:{" "}
               <Link
                 href="mailto:clients@supremerecruitmentpartners.com"
-                className="hover:underline text-xl md:text-xl"
+                className="hover:underline text-xl text-customSecondary md:text-xl"
               >
                 clients@supremerecruitmentpartners.com
               </Link>
