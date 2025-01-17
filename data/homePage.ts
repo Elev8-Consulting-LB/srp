@@ -13,7 +13,7 @@ export const about = {
 export const specialitize = {
   title: "What We Specialize In.",
   description:
-    "We help businesses find the best talent and assist candidates in finding roles to grow their careers. We serve in oil & gas, construction, manufacturing, and facility management industries.",
+    "We help businesses find the best talent and assist candidates in finding roles to grow their careers. We serve in gas, construction, manufacturing, and facility management industries.",
 };
 
 export const ourServices = {

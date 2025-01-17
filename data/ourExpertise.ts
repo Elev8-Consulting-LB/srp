@@ -7,7 +7,7 @@ export const hero = {
 export const whyChooseSrp = {
   title: "Why Choose SRP?",
   desc1:
-    "At Supreme Recruitment Partners, we specialize in providing tailored recruitment solutions across diverse industries. With decades of experience, advanced sourcing techniques, and a deep understanding of market dynamics, we ensure your business gets access to top-tier talent",
+    "At Supreme Recruitment Partners, we specialize in providing tailored recruitment solutions across diverse industries. With decades of experience, advanced sourcing techniques, and a deep understanding of market dynamics, we ensure your business gets access to top-tier talent.",
   desc2:
     "For candidates, we offer career-defining opportunities to help them thrive in their chosen fields.",
 };

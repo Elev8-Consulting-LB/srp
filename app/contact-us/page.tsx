@@ -195,14 +195,14 @@ export default function ContactPage() {
           <div className="max-w-4xl mx-auto">
             <motion.h2
               variants={itemVariants}
-              className="text-3xl md:text-4xl font-bold text-[#002B5B] mb-8 text-center underline underline-offset-8 decoration-customSecondary"
+              className="text-3xl md:text-4xl font-bold text-customTextFont mb-8 text-center underline underline-offset-8 decoration-customSecondary"
             >
               Contact Us
             </motion.h2>
 
             <motion.p
               variants={itemVariants}
-              className="text-2xl md:text-xl font-semibold text-[#002B5B] mb-8 text-start"
+              className="text-sm md:text-xl font-semibold text-customTextFont mb-8 text-start"
             >
               Employers
               <br />
@@ -233,7 +233,7 @@ export default function ContactPage() {
                     name="firstName"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel className="text-customPrimary">
+                        <FormLabel className="text-customTextFont">
                           First Name
                         </FormLabel>
                         <FormControl>
@@ -251,7 +251,7 @@ export default function ContactPage() {
                     name="lastName"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel className="text-customPrimary">
+                        <FormLabel className="text-customTextFont">
                           Last Name
                         </FormLabel>
                         <FormControl>
@@ -272,7 +272,7 @@ export default function ContactPage() {
                     name="businessName"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel className="text-customPrimary">
+                        <FormLabel className="text-customTextFont">
                           Business Name
                         </FormLabel>
                         <FormControl>
@@ -296,7 +296,7 @@ export default function ContactPage() {
                     name="email"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel className="text-customPrimary">
+                        <FormLabel className="text-customTextFont">
                           Email
                         </FormLabel>
                         <FormControl>
@@ -315,7 +315,7 @@ export default function ContactPage() {
                     name="telephone"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel className="text-customPrimary">
+                        <FormLabel className="text-customTextFont">
                           Telephone
                         </FormLabel>
                         <FormControl>
@@ -336,7 +336,7 @@ export default function ContactPage() {
                     name="timeToCall"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel className="text-customPrimary">
+                        <FormLabel className="text-customTextFont">
                           Suitable time to call
                         </FormLabel>
                         <Select
@@ -365,7 +365,7 @@ export default function ContactPage() {
                     name="jobSector"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel className="text-customPrimary">
+                        <FormLabel className="text-customTextFont">
                           Job Sector
                         </FormLabel>
                         <Select
@@ -397,7 +397,7 @@ export default function ContactPage() {
                     name="location"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel className="text-customPrimary">
+                        <FormLabel className="text-customTextFont">
                           Location
                         </FormLabel>
                         <Select
@@ -429,7 +429,7 @@ export default function ContactPage() {
                     name="cv"
                     render={({ field: { onChange } }) => (
                       <FormItem>
-                        <FormLabel className="text-customPrimary">
+                        <FormLabel className="text-customTextFont">
                           Upload File
                         </FormLabel>
                         <FormControl>
@@ -440,7 +440,7 @@ export default function ContactPage() {
                               onChange={(e) => {
                                 onChange(e.target.files);
                               }}
-                              className="pb-10 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-[#002B5B] file:text-white hover:file:bg-[#002B5B]/80 cursor-pointer"
+                              className="pb-10 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-customPrimary file:text-white hover:file:bg-customTextFont/80 cursor-pointer"
                             />
                           </div>
                         </FormControl>
@@ -457,7 +457,7 @@ export default function ContactPage() {
                 <motion.div variants={itemVariants}>
                   <Button
                     type="submit"
-                    className="bg-transparent border-2 border-[#002B5B] text-[#002B5B] hover:bg-[#002B5B] hover:text-white rounded-full px-8 py-6 text-lg font-semibold transition-colors duration-300"
+                    className="bg-transparent border-2 border-customTextFont text-customTextFont hover:bg-customPrimary hover:text-white rounded-full px-8 py-6 text-lg font-semibold transition-colors duration-300"
                     disabled={isSubmitting}
                   >
                     {isSubmitting ? "Submitting..." : "Submit"}
@@ -469,7 +469,7 @@ export default function ContactPage() {
         </div>
       </motion.section>
       <motion.section>
-        <div className="bg-[#002B5B] px-4 md:px-8 py-24 rounded-lg mb-8">
+        <div className="bg-customPrimary px-4 md:px-8 py-24 rounded-lg mb-8">
           <motion.h3
             className="text-2xl font-bold text-white mb-4 text-center relative"
             whileHover={{ scale: 1.05 }}
@@ -504,7 +504,7 @@ export default function ContactPage() {
           >
             <Link
               href="/agreement"
-              className="bg-white hover:bg-customSecondary text-customPrimary px-8 py-3 rounded-full text-lg transition-colors duration-300"
+              className="bg-white hover:bg-customSecondary text-customTextFont px-8 py-3 rounded-full text-lg transition-colors duration-300"
             >
               Apply Now
             </Link>

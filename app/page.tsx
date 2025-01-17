@@ -19,10 +19,10 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-customPrimary tracking-wide leading-tight mb-6">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-customTextFont tracking-wide leading-tight mb-6">
               {header.title}
             </h1>
-            <p className="text-lg md:text-xl text-customPrimary tracking-wide mb-8 text-justify">
+            <p className="text-lg md:text-xl text-customTextFont tracking-wide mb-8 text-justify">
               {header.description}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -68,10 +68,10 @@ export default function Home() {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-3xl md:text-4xl font-bold text-customPrimary mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-customTextFont mb-6">
                 {about.title}
               </h2>
-              <p className="text-lg text-customPrimary text-justify">
+              <p className="text-lg text-customTextFont text-justify">
                 {about.description}
               </p>
             </motion.div>
@@ -120,11 +120,11 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              <div className="bg-customPrimary p-8 md:p-12 rounded-lg shadow-lg flex flex-col justify-center items-center w-full">
+              <div className="bg-customPrimary p-8 md:p-12 rounded-lg shadow-lg flex flex-col justify-center items-start w-full">
                 <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
                   {specialitize.title}
                 </h2>
-                <p className="text-lg text-white text-center">
+                <p className="text-lg text-white text-justify">
                   {specialitize.description}
                 </p>
               </div>

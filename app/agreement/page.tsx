@@ -146,7 +146,7 @@ const TermsAndConditions = () => {
                   <h2 className="text-xl font-semibold text-justify">
                     SERVICES PROVIDED
                   </h2>
-                  <ol className="list-decimal list-inside space-y-2">
+                  <ol className="list-decimal list-inside space-y-2" start={1}>
                     <li className="text-sm leading-relaxed text-justify">
                       The Recruiter will review the Candidate&apos;s full and
                       accurate application. If appropriate, the Recruiter will
@@ -166,21 +166,24 @@ const TermsAndConditions = () => {
                   <h2 className="text-xl font-semibold text-justify">
                     CANDIDATE RESPONSIBILITES
                   </h2>
-                  <ol className="list-decimal list-inside space-y-2 text-justify">
-                    <span className="text-sm leading-relaxed text-justify">
-                      1. Candidate shall provide accurate and necessary
-                      information for Recruiter to conduct prescreening.
-                      Candidate acknowledges that all references submitted may
-                      be contacted by Recruiter or Client. Candidate shall
-                      attend to all confirmed interviews. Candidate consents to
-                      the disclosure of all relevant information by Recruiter to
-                      the Client. Candidate should not engage in any conduct
-                      which is harmful to the interests of the Recruiter. Upon
+                  <ol
+                    className="list-decimal list-inside space-y-2 text-justify"
+                    start={2}
+                  >
+                    <li className="text-sm leading-relaxed text-justify">
+                      Candidate shall provide accurate and necessary information
+                      for Recruiter to conduct prescreening. Candidate
+                      acknowledges that all references submitted may be
+                      contacted by Recruiter or Client. Candidate shall attend
+                      to all confirmed interviews. Candidate consents to the
+                      disclosure of all relevant information by Recruiter to the
+                      Client. Candidate should not engage in any conduct which
+                      is harmful to the interests of the Recruiter. Upon
                       receiving an offer of employment, Candidate shall
                       immediately inform Recruiter. Candidate voluntarily
                       relinquishes their legal ability to pursue litigation
                       against Recruiter.
-                    </span>
+                    </li>
                   </ol>
                 </motion.div>
 
@@ -190,14 +193,14 @@ const TermsAndConditions = () => {
                     NO OBLIGATION POLICY
                   </h2>
                   <ol className="list-decimal list-inside space-y-2" start={3}>
-                    <span className="text-sm leading-relaxed text-justify">
-                      2. Candidate acknowledges and agrees that despite
+                    <li className="text-sm leading-relaxed text-justify">
+                      Candidate acknowledges and agrees that despite
                       Recruiter&apos;s best efforts to place Candidate with a
                       Client, there is no obligation that employment will be
                       obtained for Candidate. Candidate understands that
                       decisive employment is solely based on the Client&apos;s
                       decision.
-                    </span>
+                    </li>
                   </ol>
                 </motion.div>
 

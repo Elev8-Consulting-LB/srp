@@ -22,7 +22,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({ title, icon, index }) => {
           height={800}
           className="w-16 h-16 mx-auto mb-4 rounded-full object-cover"
         />
-        <h3 className="text-lg font-semibold text-customPrimary text-center">
+        <h3 className="text-lg font-semibold text-customTextFont text-center">
           {title}
         </h3>
       </div>
@@ -141,7 +141,7 @@ const Page = () => {
       <section className="py-20 md:py-28 bg-gradient-to-b from-blue-50 via-gray-50 to-blue-50">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <motion.div {...fadeIn} className="max-w-5xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-extrabold text-customPrimary mb-12 text-center underline underline-offset-8 decoration-customSecondary">
+            <h2 className="text-4xl md:text-5xl font-extrabold text-customTextFont mb-12 text-center underline underline-offset-8 decoration-customSecondary">
               Placement Process
             </h2>
           </motion.div>
@@ -202,7 +202,7 @@ const Page = () => {
                   height={1200}
                   className="w-16 h-16 mb-4 rounded-full object-cover"
                 />
-                <h3 className="text-lg font-semibold text-customPrimary text-center">
+                <h3 className="text-lg font-semibold text-customTextFont text-center">
                   {event.title}
                 </h3>
               </div>

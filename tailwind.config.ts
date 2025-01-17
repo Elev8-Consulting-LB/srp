@@ -10,6 +10,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        customTextFont: "#333333",
         customPrimary: "#003366",
         customSecondary: "#FF6600",
         customBg: "#FFFFFF",

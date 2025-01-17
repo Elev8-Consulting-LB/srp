@@ -107,7 +107,7 @@ export default function AboutPage() {
       <section className="py-20 md:py-28 bg-white">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <motion.div {...fadeIn} className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#002B5B] mb-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-customTextFont mb-8">
               Who We Are
             </h2>
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
@@ -129,7 +129,7 @@ export default function AboutPage() {
       <section className="py-20 md:py-28 bg-gray-50">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <motion.div {...fadeIn} className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#002B5B] mb-8 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-customTextFont mb-8 text-center">
               What We Specialize In
             </h2>
             <p className="text-xl text-gray-700 mb-12 text-center leading-relaxed">
@@ -170,7 +170,7 @@ export default function AboutPage() {
       <section className="py-20 md:py-28 bg-white">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <motion.div {...fadeIn} className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#002B5B] mb-12 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-customTextFont mb-12 text-center">
               What Sets Us Apart
             </h2>
             <p className="text-xl text-gray-700 mb-12 text-center leading-relaxed my-10">
@@ -190,7 +190,7 @@ export default function AboutPage() {
                   className="bg-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 >
                   <div className="text-4xl mb-4">{feature.icon}</div>
-                  <h3 className="text-xl font-semibold text-[#002B5B] mb-2">
+                  <h3 className="text-xl font-semibold text-customTextFont mb-2">
                     {feature.title}
                   </h3>
                 </motion.div>
@@ -204,7 +204,7 @@ export default function AboutPage() {
       <section className="py-20 md:py-28 bg-gray-50">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <motion.div {...fadeIn} className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#002B5B] mb-12 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-customTextFont mb-12 text-center">
               Our Global Reach
             </h2>
             <p className="text-xl text-gray-700 mb-12 text-center leading-relaxed my-10">
@@ -222,7 +222,7 @@ export default function AboutPage() {
                   viewport={{ once: true }}
                   className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 >
-                  <h3 className="text-2xl font-bold text-[#002B5B] mb-6">
+                  <h3 className="text-2xl font-bold text-customTextFont mb-6">
                     {region.name}
                   </h3>
                   <ul className="text-gray-700 grid grid-cols-1 md:grid-cols-3 gap-2">
