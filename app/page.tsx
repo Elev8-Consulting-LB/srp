@@ -28,7 +28,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="#whoWeAre"
-                className="bg-customPrimary hover:bg-customSecondary text-white px-8 py-3 rounded-full text-lg transition-colors duration-300"
+                className="bg-customTextFont hover:bg-customSecondary text-white px-8 py-3 rounded-full text-lg transition-colors duration-300"
               >
                 Get Started
               </Link>
@@ -120,7 +120,7 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              <div className="bg-customPrimary p-8 md:p-12 rounded-lg shadow-lg flex flex-col justify-center items-start w-full">
+              <div className="bg-customTextFont p-8 md:p-12 rounded-lg shadow-lg flex flex-col justify-center items-start w-full">
                 <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
                   {specialitize.title}
                 </h2>
@@ -177,7 +177,7 @@ export default function Home() {
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
-            className="bg-[#002B5B] p-12 md:p-16 lg:p-24 flex flex-col items-center text-center"
+            className="bg-customTextFont p-12 md:p-16 lg:p-24 flex flex-col items-center text-center"
           >
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-12">
               Looking for the best talent? Let&apos;s work together.
@@ -220,7 +220,7 @@ export default function Home() {
             </div>
             <Link
               href="/agreement"
-              className="bg-transparent border-2 border-customTextFont text-customTextFont hover:bg-[#002B5B] hover:text-white rounded-full px-8 py-6 text-lg font-semibold transition-colors duration-300"
+              className="bg-transparent border-2 border-customTextFont text-customTextFont hover:bg-customSecondary hover:border-none hover:text-white rounded-full px-8 py-6 text-lg font-semibold transition-colors duration-300"
             >
               Submit Your CV
             </Link>

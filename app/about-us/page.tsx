@@ -71,14 +71,15 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-[#002B5B] to-[#1E4D8C] text-white py-24 md:py-32 overflow-hidden">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="flex flex-col items-center justify-center text-center">
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
+              className="max-w-2xl"
             >
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                About Supreme Recruitment Partners
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-10 leading-tight">
+                Supreme Recruitment Partners
               </h1>
               <p className="text-xl mb-8 text-gray-200">
                 Transforming careers and businesses for over two decades
@@ -89,16 +90,8 @@ export default function AboutPage() {
               alt="Team Meeting"
               width={600}
               height={600}
-              className="shadow-2xl absolute inset-0 bg-gradient-to-t from-[#002B5B] to-transparent opacity-30 rounded-lg top-0 left-0 w-full h-full object-cover "
-            />{" "}
-            <motion.div
-              initial={{ opacity: 0, x: 50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8 }}
-              className="relative"
-            >
-              <div className="absolute inset-0 bg-gradient-to-t from-[#002B5B] to-transparent opacity-30 rounded-lg"></div>
-            </motion.div>
+              className="absolute inset-0 bg-gradient-to-t from-[#002B5B] to-transparent opacity-30 rounded-lg top-0 left-0 w-full h-full object-cover"
+            />
           </div>
         </div>
       </section>
@@ -107,17 +100,15 @@ export default function AboutPage() {
       <section className="py-20 md:py-28 bg-white">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <motion.div {...fadeIn} className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-customTextFont mb-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-customTextFont mb-10">
               Who We Are
             </h2>
             <p className="text-xl text-gray-700 mb-8 leading-relaxed text-justify">
-              Leverage SRP’s comprehensive recruiting services to bridge the gap
-              between your business needs and the industry’s top talent. For
-              executive search, SRP offers unparalleled expertise and access to
-              top-tier executives who can move organizations forward. SRP has
-              also a proven track record of providing white- and blue-collar
-              professionals with the right qualifications, skills, and
-              personality to help our clients succeed.
+              Supreme Recruitment Partners (SRP) is a leading human resources
+              consulting firm with over 40 years of experience in transforming
+              people’s lives. We specialize in recruiting for various job
+              levels, from unskilled workers to D-Level Executives, ensuring
+              that the right talent meets the right opportunities.
             </p>
             <p className="text-xl text-gray-700 leading-relaxed text-justify">
               Our dynamic presence spans the Arabian Gulf, connecting local and
@@ -131,7 +122,7 @@ export default function AboutPage() {
       <section className="py-20 md:py-28 bg-gray-50">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <motion.div {...fadeIn} className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-customTextFont mb-8 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-customTextFont mb-10 text-center">
               What We Specialize In
             </h2>
             <p className="text-xl text-gray-700 mb-12 leading-relaxed text-justify">
@@ -172,7 +163,7 @@ export default function AboutPage() {
       <section className="py-20 md:py-28 bg-white">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <motion.div {...fadeIn} className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-customTextFont mb-12 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-customTextFont mb-10 text-center">
               What Sets Us Apart
             </h2>
             <p className="text-xl text-gray-700 mb-12 leading-relaxed my-10 text-justify">
@@ -206,7 +197,7 @@ export default function AboutPage() {
       <section className="py-20 md:py-28 bg-gray-50">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <motion.div {...fadeIn} className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-customTextFont mb-12 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-customTextFont mb-10 text-center">
               Our Global Reach
             </h2>
             <p className="text-xl text-gray-700 mb-12 leading-relaxed my-10 text-justify">

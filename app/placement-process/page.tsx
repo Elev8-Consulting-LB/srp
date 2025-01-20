@@ -150,12 +150,12 @@ const Page = () => {
           <div className="hidden md:block relative max-w-4xl mx-auto">
             <div
               ref={timelineRef}
-              className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-customPrimary transform -translate-x-1/2"
+              className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-customSecondary transform -translate-x-1/2"
             >
               {timelineEvents.map((_, index) => (
                 <div
                   key={index}
-                  className="absolute w-8 h-8 bg-customPrimary rounded-full flex items-center justify-center text-white font-bold"
+                  className="absolute w-8 h-8 bg-customTextFont rounded-full flex items-center justify-center text-white font-bold"
                   style={{
                     top: `calc(${
                       (index / (timelineEvents.length - 1)) * 100
@@ -212,7 +212,7 @@ const Page = () => {
       </section>
 
       {/* Recruitment Procedure Section */}
-      <section className="py-20 bg-customPrimary text-white">
+      <section className="py-20 bg-customTextFont text-white">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <motion.div {...fadeIn} className="max-w-5xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-12 text-center underline underline-offset-8 decoration-customSecondary">

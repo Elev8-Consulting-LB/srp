@@ -28,7 +28,7 @@ export default function Navbar() {
               className={`${
                 isActive
                   ? "text-customSecondary underline underline-offset-4 decoration-customSecondary decoration-2"
-                  : "text-customPrimary"
+                  : "text-customTextFont"
               } hover:underline hover:underline-offset-4 hover:decoration-customSecondary hover:decoration-2 active:underline active:underline-offset-4 active:decoration-customSecondary active:decoration-2`}
             >
               {item.title}

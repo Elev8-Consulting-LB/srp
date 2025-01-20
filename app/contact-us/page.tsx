@@ -440,7 +440,7 @@ export default function ContactPage() {
                               onChange={(e) => {
                                 onChange(e.target.files);
                               }}
-                              className="pb-10 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-customPrimary file:text-white hover:file:bg-customTextFont/80 cursor-pointer"
+                              className="pb-10 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-customSecondary file:text-white hover:file:bg-customTextFont/80 cursor-pointer"
                             />
                           </div>
                         </FormControl>
@@ -457,7 +457,7 @@ export default function ContactPage() {
                 <motion.div variants={itemVariants}>
                   <Button
                     type="submit"
-                    className="bg-transparent border-2 border-customTextFont text-customTextFont hover:bg-customPrimary hover:text-white rounded-full px-8 py-6 text-lg font-semibold transition-colors duration-300"
+                    className="bg-transparent border-2 border-customTextFont text-customTextFont hover:bg-customSecondary hover:border-none hover:text-white rounded-full px-8 py-6 text-lg font-semibold transition-colors duration-300"
                     disabled={isSubmitting}
                   >
                     {isSubmitting ? "Submitting..." : "Submit"}
@@ -469,7 +469,7 @@ export default function ContactPage() {
         </div>
       </motion.section>
       <motion.section>
-        <div className="bg-customPrimary px-4 md:px-8 py-24 rounded-lg mb-8">
+        <div className="bg-customTextFont px-4 md:px-8 py-24 rounded-lg mb-8">
           <motion.h3
             className="text-2xl font-bold text-white mb-4 text-center relative"
             whileHover={{ scale: 1.05 }}

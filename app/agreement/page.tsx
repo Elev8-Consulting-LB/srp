@@ -107,7 +107,7 @@ const TermsAndConditions = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#003366] text-white py-12">
+    <div className="min-h-screen bg-customTextFont text-white py-12">
       <div className="container mx-auto px-4 md:px-6 lg:px-8 max-w-4xl">
         <motion.div
           variants={containerVariants}
@@ -321,7 +321,7 @@ const TermsAndConditions = () => {
                                 field.onChange(files);
                               }
                             }}
-                            className="pb-10 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-[#002B5B] file:text-white hover:file:bg-[#002B5B]/80"
+                            className="pb-10 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-customSecondary file:text-white hover:file:bg-customSecondary/70"
                           />
                         </FormControl>
                         <FormDescription>
@@ -335,7 +335,11 @@ const TermsAndConditions = () => {
                 </motion.div>
 
                 <motion.div variants={itemVariants}>
-                  <Button type="submit" className="w-full" disabled={!isAgreed}>
+                  <Button
+                    type="submit"
+                    className="w-full bg-customSecondary hover:bg-customSecondary/70"
+                    disabled={!isAgreed}
+                  >
                     Submit Agreement and CV
                   </Button>
                 </motion.div>
