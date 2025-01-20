@@ -229,7 +229,7 @@ export default function AboutPage() {
                       : region.countries.sort((a, b) => a.localeCompare(b))
                     ).map((country, idx) => (
                       <li key={idx} className="flex items-center">
-                        <span className="w-2 h-2 bg-[#002B5B] rounded-full mr-2"></span>
+                        <span className="w-2 h-2 bg-customTextFont rounded-full mr-2"></span>
                         {country}
                       </li>
                     ))}
