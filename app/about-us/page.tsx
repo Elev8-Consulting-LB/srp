@@ -69,7 +69,7 @@ export default function AboutPage() {
   return (
     <main className="overflow-hidden">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-[#002B5B] to-[#1E4D8C] text-white py-24 md:py-32 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-customTextFont/80  to-customTextFont/50 text-white py-24 md:py-32 overflow-hidden">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="flex flex-col items-center justify-center text-center">
             <motion.div
