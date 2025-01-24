@@ -106,7 +106,7 @@ export default function AboutPage() {
             <p className="text-xl text-gray-700 mb-8 leading-relaxed text-justify">
               Supreme Recruitment Partners (SRP) is a leading human resources
               consulting firm with over 40 years of experience in transforming
-              people’s lives. We specialize in recruiting for various job
+              people&apos;s lives. We specialize in recruiting for various job
               levels, from unskilled workers to D-Level Executives, ensuring
               that the right talent meets the right opportunities.
             </p>
@@ -135,12 +135,12 @@ export default function AboutPage() {
                 </h2>
                 <p className="text-lg text-white text-justify">
                   At Supreme Recruitment Partners, our mission is to align our
-                  recruitment strategies with our clients' objectives, providing
-                  in-depth search and selection, valuable expertise, and
-                  high-quality, suitable candidates across diverse industries.
-                  We strive to help businesses unlock significant value and
-                  drive sustainable growth while empowering candidates to
-                  achieve their career aspirations.
+                  recruitment strategies with our clients&apos; objectives,
+                  providing in-depth search and selection, valuable expertise,
+                  and high-quality, suitable candidates across diverse
+                  industries. We strive to help businesses unlock significant
+                  value and drive sustainable growth while empowering candidates
+                  to achieve their career aspirations.
                 </p>
               </div>
             </motion.div>
