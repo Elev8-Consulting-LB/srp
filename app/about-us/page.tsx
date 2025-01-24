@@ -179,7 +179,7 @@ export default function AboutPage() {
               />
             </motion.div>
             <motion.div
-              className="w-full md:w-1/2 flex order-2 md:order-1"
+              className="w-full md:w-1/2 flex order-2 md:order-0"
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
