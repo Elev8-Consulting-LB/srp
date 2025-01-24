@@ -118,6 +118,93 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* mission section  */}
+      <section className="bg-white py-16 md:py-24">
+        <div className="container mx-auto px-4 md:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row items-stretch min-h-[500px]">
+            <motion.div
+              className="w-full md:w-1/2 mb-8 md:mb-0 order-2 md:order-1"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+            >
+              <Image
+                src="/missionThumbnail.png"
+                alt="Mission"
+                width={500}
+                height={500}
+                className="w-full h-full object-cover rounded-lg shadow-lg"
+              />
+            </motion.div>
+            <motion.div
+              className="w-full md:w-1/2 order-1 md:order-2 flex"
+              initial={{ opacity: 0, y: -20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              viewport={{ once: true }}
+            >
+              <div className="bg-customTextFont p-8 md:p-12 rounded-lg shadow-lg flex flex-col justify-center items-start w-full">
+                <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+                  Mission
+                </h2>
+                <p className="text-lg text-white text-justify">
+                  At Supreme Recruitment Partners, our mission is to align our
+                  recruitment strategies with our clients’ objectives, providing
+                  in-depth search and selection, valuable expertise, and
+                  high-quality, suitable candidates across diverse industries.
+                  We strive to help businesses unlock significant value and
+                  drive sustainable growth while empowering candidates to
+                  achieve their career aspirations.
+                </p>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* vision section  */}
+      <section className="py-16 md:py-24 bg-white" id="whoWeAre">
+        <div className="container mx-auto px-4 md:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row items-center justify-between">
+            <motion.div
+              className="w-full md:w-1/2 mb-12 md:mb-0"
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+            >
+              <h2 className="text-3xl md:text-4xl font-bold text-customTextFont mb-6">
+                Our Vision
+              </h2>
+              <p className="text-lg text-customTextFont text-justify">
+                Our vision is to become the most trusted and respected
+                recruitment partner in the region, known for upholding the
+                highest standards of business ethics and practices. We aim to
+                care for and support our candidates, respect our associates, and
+                provide transparent, efficient services to our clients while
+                meeting their needs punctually and professionally.
+              </p>
+            </motion.div>
+            <motion.div
+              className="w-full md:w-1/3"
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              viewport={{ once: true }}
+            >
+              <Image
+                src="/visionThumbnail.png"
+                alt="About"
+                width={2000}
+                height={2000}
+                className="w-full h-auto object-contain"
+              />
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       {/* What We Specialize In Section */}
       <section className="py-20 md:py-28 bg-gray-50">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
