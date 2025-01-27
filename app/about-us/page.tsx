@@ -96,12 +96,12 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Who We Are Section */}
+      {/* About Us Section */}
       <section className="py-20 md:py-28 bg-white">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <motion.div {...fadeIn} className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-customTextFont mb-10">
-              Who We Are
+              About Us
             </h2>
             <p className="text-xl text-gray-700 mb-8 leading-relaxed text-justify">
               Supreme Recruitment Partners (SRP) is a leading human resources
