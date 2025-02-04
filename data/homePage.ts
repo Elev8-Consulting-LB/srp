@@ -7,13 +7,13 @@ export const header = {
 export const about = {
   title: "Who We Are",
   description:
-    "Leverage SRP’s comprehensive recruiting services to bridge the gap between your business needs and the industry’s top talent. For executive search, SRP offers unparalleled expertise and access to top-tier executives who can move organizations forward. SRP has also a proven track record of providing white- and blue-collar professionals with the right qualifications, skills, and personality to help our clients succeed.",
+    "Leverage SRP’s comprehensive recruiting services to bridge the gap between your business needs and the industry’s top talent. For executive search, SRP offers unparalleled expertise and access to top-tier executives who can move organizations forward. SRP has also a proven track record of providing white and blue collar professionals with the right qualifications, skills, and personality to help our clients succeed.",
 };
 
 export const specialitize = {
-  title: "What We Specialize In.",
+  title: "What We Specialize in",
   description:
-    "We help businesses find the best talent and assist candidates in finding roles to grow their careers. We serve gas & oil, construction, manufacturing, and facility management industries.",
+    "We help businesses find the best talent and assist candidates in finding roles to grow their careers. We serve oil & gas, construction, manufacturing, and facility management industries.",
 };
 
 export const ourServices = {
