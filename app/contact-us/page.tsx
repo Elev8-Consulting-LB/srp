@@ -532,7 +532,7 @@ export default function ContactPage() {
                       <li className="flex items-center space-x-4">
                           <MapPin className="w-7 h-7 text-customSecondary text-opacity-80 transition-transform duration-200 hover:scale-110" />
                           <Link href="#" className="hover:underline transition-colors duration-200 hover:text-customSecondary">
-                              PO Box: 500 <br/>
+                              PO Box:  500 <br/>
                               Batroun, Lebanon
                           </Link>
                       </li>
