@@ -82,7 +82,7 @@ export default function AboutPage() {
                 Supreme Recruitment Partners
               </h1>
               <p className="text-xl mb-8 text-gray-200">
-                Transforming careers and businesses for over two decades
+                Transforming careers and businesses for over four decades
               </p>
             </motion.div>
             <Image
